@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_3x8bnqe1"]
+
+[ext_resource type="Texture2D" uid="uid://acg_94otrij8" id="Color" path="./Pizza003_1K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_k1yfwe6r" id="AmbientOcclusion" path="./Pizza003_1K-JPG_AmbientOcclusion.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_7gf821rx" id="Displacement" path="./Pizza003_1K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_bn25x0ae" id="Roughness" path="./Pizza003_1K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_vgpkbio7" id="NormalGL" path="./Pizza003_1K-JPG_NormalGL.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
